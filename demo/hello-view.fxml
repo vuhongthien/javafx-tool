@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.geometry.*?>
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.geometry.Insets?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.layout.VBox?>
+<?import javafx.scene.control.Button?>
+
+
+<AnchorPane fx:controller="com.example.demo.HelloController" maxHeight="815" maxWidth="1270" minHeight="815" minWidth="1270" onMousePressed="#container" prefHeight="815.0" prefWidth="1270.0" style="-fx-background-color: #fff;" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1">
+   <children>
+      <VBox prefHeight="815.0" prefWidth="499.0" style="-fx-background-color: #D6E4E5;">
+         <children>
+            <Pane prefHeight="110.0" prefWidth="499.0">
+               <children>
+                  <Text fill="#eb6440" layoutX="92.0" layoutY="72.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Archive Baseline">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="44.0" />
+                     </font>
+                  </Text>
+               </children>
+            </Pane>
+            <Button mnemonicParsing="false" prefHeight="37.0" prefWidth="499.0" style="-fx-background-color: #497174;" text="Get Project Area" textFill="WHITE">
+               <font>
+                  <Font name="Bookshelf Symbol 7" size="14.0" />
+               </font>
+            </Button>
+            <HBox alignment="CENTER_LEFT" prefHeight="34.0" prefWidth="499.0" style="-fx-background-color: #EFF5F5;">
+               <children>
+                  <Label alignment="BOTTOM_CENTER" text="Total:" textFill="#eb6440">
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+                     </font>
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                  </Label>
+               </children>
+            </HBox>
+            <HBox alignment="CENTER_LEFT" prefHeight="43.0" prefWidth="499.0" style="-fx-background-color: #D6E4E5;">
+               <children>
+                  <Label alignment="BOTTOM_CENTER" text="Name Project Area" textAlignment="CENTER" textFill="#497174">
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+                     </font>
+                  </Label>
+                  <Label alignment="BOTTOM_CENTER" text="Url Project Area" textFill="#497174">
+                     <HBox.margin>
+                        <Insets left="20.0" />
+                     </HBox.margin>
+                     <font>
+                        <Font name="Berlin Sans FB Demi Bold" size="14.0" />
+                     </font>
+                  </Label>
+               </children>
+            </HBox>
+            <ScrollPane prefHeight="591.0" prefWidth="499.0">
+               <content>
+                  <VBox fx:id="pnlItem" prefHeight="589.0" prefWidth="497.0" style="-fx-background-color: EFF5F5;"  >
+                     <fx:include source="item.fxml" />
+                     <fx:include source="item.fxml" />
+                     <fx:include source="item.fxml" />
+                     <fx:include source="item.fxml" />
+                     <fx:include source="item.fxml" />
+                     <fx:include source="item.fxml" />
+                     <fx:include source="item.fxml" />
+                     <fx:include source="item.fxml" />
+                     <fx:include source="item.fxml" />
+                     <fx:include source="item.fxml" />
+                     <fx:include source="item.fxml" />
+                     <fx:include source="item.fxml" />
+                     <fx:include source="item.fxml" />
+                     <fx:include source="item.fxml" />
+                     <fx:include source="item.fxml" />
+
+                  </VBox>
+               </content>
+            </ScrollPane>
+         </children>
+      </VBox>
+   </children>
+</AnchorPane>
